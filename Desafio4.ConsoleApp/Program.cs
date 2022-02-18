@@ -8,6 +8,7 @@ namespace Desafio4.ConsoleApp
         {
             int nComandos;
             String comandos;
+            bool resp;
             
             do
             {
@@ -67,7 +68,12 @@ namespace Desafio4.ConsoleApp
                     }
 
                 Console.WriteLine(posicao);
-            } while (nComandos != 0);
+                Console.Write("Deseja instruir mais um robo? Digite 1 para sim e 0 para não: ");
+                int continuar = Convert.ToInt32(Console.ReadLine());
+                
+                resp = continuar == 1;
+
+            } while (resp == true );
         }
     }
 }
