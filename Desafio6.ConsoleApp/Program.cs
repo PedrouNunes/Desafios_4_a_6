@@ -6,7 +6,7 @@ namespace Desafio6.ConsoleApp
     {
         static void Main(string[] args)
         {
-            int testes, homens, salto, contSalto = 0;
+            int testes, homens, salto, contSalto = 1;
 
             Console.WriteLine("Digite a quantidade de testes: ");
             testes = Convert.ToInt32(Console.ReadLine());
@@ -22,9 +22,10 @@ namespace Desafio6.ConsoleApp
                 for(int j = 0; j < homens; j++)
                 {
                     contSalto = contSalto + salto;
-                if(contSalto > homens)
+
+                if(contSalto >= homens)
                     {
-                        contSalto = -1;
+                        contSalto = contSalto - salto;
                     }
                 }
                 Console.WriteLine("Caso " + i + ": " + contSalto);
