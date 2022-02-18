@@ -15,12 +15,16 @@ namespace Desafio5.ConsoleApp
 
             for (int i = 0; i < numeros.Length; i++)
             {
-
                 Console.Write("Digite o valor da posição " + i + " a ser lido: ");
                 numeros[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-        }   
+            for (int i = 0; i < numeros.Length; i++)
+            { 
+            
+            }
+
+            }   
     }
 }
 

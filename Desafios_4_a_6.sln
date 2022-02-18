@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio4.ConsoleApp", "Desafio4.ConsoleApp\Desafio4.ConsoleApp.csproj", "{8DE22F45-7821-42E0-BD98-3478EA48A8B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio4.ConsoleApp", "Desafio4.ConsoleApp\Desafio4.ConsoleApp.csproj", "{8DE22F45-7821-42E0-BD98-3478EA48A8B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio5.ConsoleApp", "Desafio5.ConsoleApp\Desafio5.ConsoleApp.csproj", "{7359E6EF-88BB-43EE-B67A-32D1E3B7B7A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio5.ConsoleApp", "Desafio5.ConsoleApp\Desafio5.ConsoleApp.csproj", "{7359E6EF-88BB-43EE-B67A-32D1E3B7B7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio6.ConsoleApp", "Desafio6.ConsoleApp\Desafio6.ConsoleApp.csproj", "{0117C76B-303D-4709-8D3C-4E7BE8408386}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7359E6EF-88BB-43EE-B67A-32D1E3B7B7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7359E6EF-88BB-43EE-B67A-32D1E3B7B7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7359E6EF-88BB-43EE-B67A-32D1E3B7B7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0117C76B-303D-4709-8D3C-4E7BE8408386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0117C76B-303D-4709-8D3C-4E7BE8408386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0117C76B-303D-4709-8D3C-4E7BE8408386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0117C76B-303D-4709-8D3C-4E7BE8408386}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
